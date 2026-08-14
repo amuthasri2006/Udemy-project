@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Gabarito", sans-serif;
+}
+
+.navbar{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    align-items: center;
+}
+.navbar__s1__title{ color: #A435F0; }
+.navbar__s2{
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 30px;
+    width: 60%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.navbar__s2 input{
+     border: none; 
+     width: 100%;
+      font-size: 16px;
+       background: transparent;
+    }
+.navbar__s2 input:focus{
+     outline: none;
+     }
+.navbar__s3{ 
+    display: flex;
+     gap: 15px;
+      align-items: center;
+     }
+
+.categories{
+     display: flex;
+      padding: 10px;
+      justify-content: space-around;
+       border-bottom: 1px solid black;
+     }
+.categories p{ 
+    background-color: #A435F0;
+     color: white;
+      padding: 10px; 
+      border-radius: 30px;
+     }
+
+.sale-image img{
+     width: 100%;
+
+     }
+
+/* Recommended Topics */
+.recommended{
+     padding: 10px;
+     }
+.recommended__container{
+     display: flex; 
+     flex-wrap: wrap;
+      gap: 10px;
+       margin-top: 10px;
+     }
+.recommended__container p{ 
+    border: 1px solid black;
+     padding: 10px;
+      flex-basis: 30%;
+       text-align: center;
+     }
+
+/* Most Popular */
+.popular{
+     padding: 10px;
+     }
+.popular__container{ 
+    display: flex;
+     flex-wrap: wrap;
+      justify-content: space-between; 
+      margin-top: 10px; 
+    }
+.course-card{
+     width: 23%;
+     }
+.course-card img{
+     width: 100%; 
+    }
+.course-card h3{
+    font-size: 16px;
+     margin-top: 5px;
+     }
+
+/* Footer */
+.footer{
+     padding: 30px; 
+     background-color: black; 
+     color: white;
+     }
+.footer__one{ 
+    display: flex;
+     gap: 10px;
+     }
+.footer__one p{ 
+    margin: 15px 0; 
+}
+.footer__two{
+     display: flex;
+      justify-content: space-between; 
+      align-items: center;
+       margin-top: 20px;
+ }
